@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: aquamarine;
+    height: 40.6375px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-right:76.4px ;
+    padding-left: 76.4px;
+    justify-content: space-between;
+}
+
+
+.nav-logo{
+    display: inline-flex;
+    width: 100px;
+    
+}
+.link-menu{
+    display: inline-flex;
+    padding-right: 0px;
+    
+}
+.link-tag{
+    text-decoration: none;
+    margin-left: 10px;
+    
+    
+}
+
+
+
+.butt1{
+    display: inline-block;
+    margin-top: 200px;
+}
+
+.subscribe-button{
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-family: Arial;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.15s ;
+    &:hover{
+        background-color: rgba(255, 0, 0, 0.764);
+       
+    }
+    &:active{
+        background-color:rgba(255, 0, 0, 0.704) ;
+    }
+
+}
+
+.join-button{
+    margin-top: 10px;
+    padding: 10px;
+    padding-bottom: 9px;
+    border: 1px solid;
+    margin-left: 10px;
+    background-color: white;
+    color: rgb(61, 61, 220);
+    cursor: pointer;
+    border-radius: 3px;
+    vertical-align: top;
+    transition: background-color 0.15s ,color 0.15s;
+
+    &:hover{
+        background-color: rgb(61, 61, 220);
+        color: white;
+    }
+    &:active{
+        background-color: rgba(61, 61, 220, 0.895);
+    }
+}
+
+.tweet-button{
+    margin-left: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    background-color: rgb(40, 190, 249);
+    color: white;
+    border-radius:100px;
+    font-weight: bold;
+    &:hover{
+        box-shadow: 10px 10px 10px black;
+    }
+   
+}
